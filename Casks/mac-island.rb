@@ -8,7 +8,7 @@ cask "mac-island" do
   desc "Dynamic Island and Island HUD for macOS (Apple Silicon)"
   homepage "https://github.com/eliasemon/mac-island"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
   depends_on arch: :arm64
 
   # The app is distributed as MacIsland.app inside the release zip.
